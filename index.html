@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Circular radial progressbar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+	
+	<div class="ProgressBar ProgressBar--animateNone" data-progress="50">
+		<svg class="ProgressBar-contentCircle"  viewBox="0 0 200 200">
+			<circle transform="rotate(-90, 100, 100)" class="ProgressBar-background" cx="100" cy="100" r="95" />
+			<circle transform="rotate(-90, 100, 100)" class="ProgressBar-circle" cx="100" cy="100" r="95" />
+			<span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
+		</svg>
+	</div>
+	<div class="ProgressBar ProgressBar--animateNone" data-progress="80">
+		<svg class="ProgressBar-contentCircle"  viewBox="0 0 200 200">
+			<circle transform="rotate(-90, 100, 100)" class="ProgressBar-background" cx="100" cy="100" r="95" />
+			<circle transform="rotate(-90, 100, 100)" class="ProgressBar-circle" cx="100" cy="100" r="95" />
+			<span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
+		</svg>
+	</div>
+	<div class="ProgressBar ProgressBar--animateNone" data-progress="30">
+		<svg class="ProgressBar-contentCircle"  viewBox="0 0 200 200">
+			<circle transform="rotate(-90, 100, 100)" class="ProgressBar-background" cx="100" cy="100" r="95" />
+			<circle transform="rotate(-90, 100, 100)" class="ProgressBar-circle" cx="100" cy="100" r="95" />
+			<span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
+		</svg>
+	</div>
+	
+	
+	
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>

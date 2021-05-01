@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+  background: #DA4453;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  padding-top : 300px;
+  display : flex;
+  align-items:center;
+  justify-content:center;
+}
+
+
+/* ProgressBar Style */
+.ProgressBar,
+.ProgressBar-contentCircle {
+  display: table;
+  height: 270px;
+  width: 270px;
+  position : relative;
+}
+
+.ProgressBar-circle,
+.ProgressBar-background {
+  fill: none;
+  stroke: #000;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-dasharray: 0;
+  stroke-dashoffset: 0;
+  position: relative;
+  z-index: 10;
+}
+
+.ProgressBar-background {
+  stroke: white;
+  stroke-width: 4;
+  z-index: 0;
+}
+
+.ProgressBar-percentage {
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  position : absolute;
+  top : 50%;
+  left : 50%;
+  transform : translate(-50% , -50%);
+}
+
